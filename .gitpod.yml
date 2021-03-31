@@ -1,0 +1,10 @@
+---
+image:
+    file: .gitpod.Dockerfile
+
+tasks:
+    - init: pip3 install --upgrade conan && pre-commit install -f --hook-type pre-commit
+
+# TODO 
+# 1. add a command which configures the build upon entering the gitpod workspace
+# 2. install some ide extensions
