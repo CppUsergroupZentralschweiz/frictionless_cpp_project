@@ -90,10 +90,12 @@ If you have [direnv](https://direnv.net/) and [nix](https://nixos.org/) installe
 
 For the workshop not everything is set-up correctly yet. (_See the [original project](https://github.com/bbvch/Coronan) for a more complete version._)
 
-1. Exercise nix:
-   
-   See [shell.nix](./shell.nix) for TODOs
 1. Exercise gitpod:
 
    See [.gitpod.Dockerfile](./.gitpod.Dockerfile) and [.gitpod.yml](./.gitpod.yml) for TODOs
+   
+1. Exercise nix:
+   
+   See [shell.nix](./shell.nix) for TODOs
+
 
