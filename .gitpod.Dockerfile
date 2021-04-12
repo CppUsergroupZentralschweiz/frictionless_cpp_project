@@ -42,5 +42,5 @@ RUN conan profile new default --detect
 # 1. install conan
 # 2. install clang-11. because gitpod/workspace-full-vnc has clang-13 installes which is not supported by conan yet.
 # 3. install cmake-format
-# 4. install newest cmake release candidate
+# 4. install newest cmake release (3.20.1)
 # 5. install pre-commit

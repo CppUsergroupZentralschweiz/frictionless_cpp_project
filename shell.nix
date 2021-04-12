@@ -6,10 +6,10 @@
 # 5. install ccache and ninja
 # 6. install dpkg
 # 7. install pre-commit hooks
+# 8. install cmake 3.20.1
 
-
-with (import ./inputs.nix);
-with pkgs;
+with (import ./sources.nix);
+with nixpkgs;
 let
   gcc = gcc10;
 
