@@ -13,7 +13,8 @@ with nixpkgs;
 let
   gcc = gcc10;
 
-in mkShell {
+in stdenvNoCC.mkDerivation {
+  name = "shell";
   hardeningDisable = [ "all" ];
   LOCALE_ARCHIVE_2_27 = "${glibcLocales}/lib/locale/locale-archive";
   buildInputs = [
